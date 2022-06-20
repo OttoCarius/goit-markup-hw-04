@@ -432,9 +432,11 @@ align-items: baseline;}
 
 .join-icon{fill:var(--bgColorPrimary);}
 
-.join-li:hover,
-.join-li:focus{background: var(--btnbgColor);
-border-radius: 50%;}
+.join-link:hover,
+.join-link:focus {
+    background-color: var(--colorSecondary);
+    border-color: var(--colorSecondary);
+}
 
 /* .join-li:hover .join-icon{background-color: #2196F3;} */
 
