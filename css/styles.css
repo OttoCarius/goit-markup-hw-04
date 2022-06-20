@@ -99,12 +99,15 @@ ul {
 .contact-list{
      display: flex;
      margin-left: auto;
+    
+
 }
 
 
 .contacts {color: var(--colorTertiary);
     text-decoration: none;
-}
+    }
+
 .contact-list>li:not(:first-child) {margin-left: 30px;}
 
 .contacts:hover,
@@ -114,6 +117,9 @@ ul {
 .mail-icon{margin-right: 10px;
     fill: currentColor;
     }
+
+.contact-list a{display: flex;
+    align-items: center;}
 
 
 
@@ -415,7 +421,7 @@ align-items: baseline;}
     background-color: rgba(255, 255, 255, 0.1);
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     padding: 12px;
 }
 
@@ -519,6 +525,7 @@ flex-wrap: wrap;
 }
 
 
+
 .list-projects img {
     display: block;
 }
@@ -558,7 +565,7 @@ flex-wrap: wrap;
 
 }
 
-list-projects>li>a:hover .list-projects>li>a:focus {
+.list-projects>li>a:hover .list-projects>li>a:focus {
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
